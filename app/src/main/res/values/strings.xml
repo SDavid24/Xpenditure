@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Xpenditure</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--
+   <Strings  for the Intro activity
+-->
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on Projemanag’s Minimalist Interface.</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <!--
+    Strings for the sign up & sign in Activities
+-->
+    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="job">Job description</string>
+    <string name="board_name">Board Name</string>
+
+    <string name="sign_in_description_text">Enter your name, email id and password, to register with us.</string>
+
+    <!--
+   Strings or progress dialog
+-->
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <!--String for the nav drawer list-->
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_sign_out">Sign Out</string>
+
+    <!--String for the nav drawer list-->
+    <string name="location">Location</string>
+    <string name="department">Department</string>
+    <string name="update">UPDATE</string>
+    <string name="create">CREATE</string>
+    <string name="add">ADD</string>
+    <string name="my_profile_title">My Profile</string>
+    <string name="create_board_title">Create Board</string>
+    <string name="add_expense">Add Expense</string>
+
+    <string name="no_boards_are_available">No Boards are available!!!</string>
+
+    <!--Strings for the add expense fragment-->
+    <string name="date">Date</string>
+    <string name="merchant">Merchant</string>
+    <string name="total">Total($)</string>
+    <string name="comment">Comment</string>
+    <string name="text_add_image">Add Receipt</string>
+
+</resources>
