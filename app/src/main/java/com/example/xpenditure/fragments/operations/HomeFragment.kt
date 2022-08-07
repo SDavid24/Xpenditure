@@ -120,7 +120,7 @@ class HomeFragment : BaseFragment(), NavigationView.OnNavigationItemSelectedList
 
     private fun searchTable(){
         btn_search_merchant.setOnClickListener {
-            val merchantName = et_merchant_search.text
+            val merchantName = et_merchant_search.text.toString().trim { it <= ' ' }
             if(merchantName.isNotEmpty()) {
                 showProgressDialog("Loading...")
                 FirestoreClass().searchMerchantWord(this, merchantName.toString())
@@ -131,8 +131,8 @@ class HomeFragment : BaseFragment(), NavigationView.OnNavigationItemSelectedList
         }
 
         btn_search_amount.setOnClickListener {
-            val amountFrom  = et_amountMin.text.toString()
-            val  amountTo = et_amountMax.text.toString()
+            val amountFrom  = et_amountMin.text.toString().trim { it <= ' ' }
+            val  amountTo = et_amountMax.text.toString().trim { it <= ' ' }
             if(amountTo.isNotEmpty() && amountFrom.isNotEmpty()) {
 
                 showProgressDialog("Loading...")
